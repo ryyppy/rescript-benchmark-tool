@@ -98,7 +98,7 @@ function main() {
   console.error("Measuring build performance...");
   let buildTime = timeBsbBuild();
 
-  let locPerSec = Math.round(fileMetrics.totalLines / buildTime.user);
+  let locPerSec = Math.round(fileMetrics.totalLines / buildTime.real);
 
   let result = {
     fileMetrics,
@@ -111,7 +111,6 @@ function main() {
   if (asJson) {
     console.log(JSON.stringify(result, null, 2));
   }
-
 
   // TODO: maybe add human readable format as an option?
 }
