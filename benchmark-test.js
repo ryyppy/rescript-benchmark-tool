@@ -1,4 +1,5 @@
-/*
+/* File provided by: https://github.com/ryyppy/re-compiler-benchmark-tool
+ * 
  * This is an attempt to provide quick metrics on the build time performance
  * of BuckleScript within a Reason project.
  *

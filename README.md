@@ -47,9 +47,8 @@ Measuring build performance...
 
 ## Installation
 
-It's a standalone NodeJS script, it only needs a project with a common Reason
-project with a `bsconfig.json` in the project root and `cloc` as a dev
-dependency.
+It's a standalone NodeJS script, it only needs a typical Reason project with a
+`bsconfig.json` in its project root and `cloc` as a dev dependency:
 
 ```
 # Install line counting tool
@@ -61,3 +60,7 @@ mkdir scripts
 # Curl the test script into the scripts folder
 curl -o scripts/benchmark-test.js https://raw.githubusercontent.com/ryyppy/re-compiler-benchmark-tool/master/benchmark-test.js
 ```
+
+## Why not a package.json?
+
+It's a simple script
