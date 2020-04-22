@@ -49,8 +49,12 @@ dependency.
 # Install line counting tool
 npm install cloc --save-dev
 
+
 # Create some subdir if wanted
 mkdir scripts
+
+# Curl the test script into the scripts folder
+curl -o scripts/benchmark-test.js https://raw.githubusercontent.com/ryyppy/re-compiler-benchmark-tool/master/benchmark-test.js
 ```
 
 **Add a npm script for easy access & automation:**
