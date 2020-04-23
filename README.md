@@ -59,6 +59,12 @@ mkdir scripts
 
 # Curl the test script into the scripts folder
 curl -o scripts/benchmark-test.js https://raw.githubusercontent.com/ryyppy/re-compiler-benchmark-tool/master/benchmark-test.js
+
+# Make sure to make world before running the tool, otherwise it will fail
+npx bsb -make-world
+
+# To run it
+node scripts/benchmark-test.js
 ```
 
 ## Why not a package.json?
