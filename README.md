@@ -1,6 +1,6 @@
 # ReScript Benchmark Tool
 
-This repository offers a simple setup for benchmarking your Reason project
+This repository offers a simple setup for benchmarking your ReScript project
 compilation metrics.
 
 ## How it works
