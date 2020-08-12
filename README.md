@@ -1,4 +1,4 @@
-# Reason Compiler Benchmark Tool
+# ReScript Benchmark Tool
 
 This repository offers a simple setup for benchmarking your Reason project
 compilation metrics.
