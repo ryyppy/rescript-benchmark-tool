@@ -1,7 +1,7 @@
 /* File provided by: https://github.com/ryyppy/re-compiler-benchmark-tool
  * 
  * This is an attempt to provide quick metrics on the build time performance
- * of BuckleScript within a Reason project.
+ * of a ReScript project.
  *
  * It requires following files in you package.json dependency list:
  * - bs-platform
@@ -9,7 +9,7 @@
  *
  * It also requires a bsconfig.json file to exist in the currently executing CWD.
  * The script will automatically pick up your bsconfig.sources configuration to find
- * all Reason file occurrences and puts it in relation to the bucklescript build times.
+ * all `.re` file occurrences and puts it in relation to the ReScript compiler build times.
  *
  * This script doesn't measure "world builds" (no -clean-world / -make-world).
  *
@@ -83,7 +83,7 @@ const getFileMetrics = () => {
 function main() {
   const arg = process.argv[2];
   if (arg === "--help" || arg === "-h") {
-    console.log("Runs simple benchmarks for a BuckleScript project");
+    console.log("Runs simple benchmarks for a ReScript project");
     return;
   }
 
