@@ -8,7 +8,7 @@ compilation metrics.
 It's very simple for now:
 
 The script `benchmark-test.js` will automatically pick up your bsconfig.sources
-configuration to find all Reason file occurrences and puts it in relation to
+configuration to find all `.re` file occurrences and puts it in relation to
 the bucklescript build times by running a clean build.
 
 It will not measure complete builds (no -clean-world | -make-world) to keep
@@ -47,7 +47,7 @@ Measuring build performance...
 
 ## Installation
 
-It's a standalone NodeJS script, it only needs a typical Reason project with a
+It's a standalone NodeJS script, it only needs a typical ReScript project with a
 `bsconfig.json` in its project root and `cloc` as a dev dependency:
 
 ```
