@@ -9,7 +9,7 @@ It's very simple for now:
 
 The script `benchmark-test.js` will automatically pick up your bsconfig.sources
 configuration to find all `.re` file occurrences and puts it in relation to
-the bucklescript build times by running a clean build.
+the ReScript compiler build times by running a clean build.
 
 It will not measure complete builds (no -clean-world | -make-world) to keep
 dependencies out of the equation.
